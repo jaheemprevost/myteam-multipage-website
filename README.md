@@ -1,47 +1,56 @@
-# Astro Starter Kit: Minimal
+# Frontend Mentor - myteam website solution
 
-```sh
-npm create astro@latest -- --template minimal
-```
+This is a solution to the [myteam website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/myteam-multipage-website-mxlEauvW). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## Table of contents
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-## 🚀 Project Structure
+## Overview
 
-Inside of your Astro project, you'll see the following folders and files:
+### The challenge
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Users should be able to:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- View the optimal layout for each page depending on their device's screen size
+- See hover states for all interactive elements throughout the site
+- See the correct content for each team member on the About page when the `+` icon is clicked
+- Receive an error message when the contact form is submitted if:
+  - The `Name`, `Email Address` or `Message` fields are empty should show "This field is required"
+  - The `Email Address` is not formatted correctly should show "Please use a valid email address"
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### Screenshot
 
-Any static assets, like images, can be placed in the `public/` directory.
+To be added
 
-## 🧞 Commands
+### Links
 
-All commands are run from the root of the project, from a terminal:
+- Solution URL: [Solution URL](https://github.com/jaheemprevost/myteam-multipage-website)
+- Live Site URL: [Live Site URL](https://your-live-site-url.com)
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## My process
 
-## 👀 Want to learn more?
+### Built with
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- Semantic HTML5 markup
+- Flexbox
+- Mobile-first workflow
+- [Tailwind CSS](https://tailwindcss.com/) - CSS framework
+- [Astro](https://astro.build/) - Web framework
+- [Fontsource](fontsource.org) - Allows you to self-host open source fonts
+
+### Useful resources
+
+- [Astro Documentation](https://docs.astro.build/en/getting-started/) - Used as a reference and guide.
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation) - Used as a reference and guide.
+
+## Author
+
+- Frontend Mentor - [@jaheemprevost](https://www.frontendmentor.io/profile/jaheemprevost)
